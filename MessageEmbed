@@ -1,0 +1,20 @@
+//discord.js v12 
+
+//Dosyanın üst tarafı
+
+//Tanımlamalar
+
+const Discord = require('discord.js'); //discord.js tanımlaması (GEREKLİ)
+const { MessageEmbed } = require('discord.js'); //MessageEmbed Tanımlaması (GEREKLİ)
+
+
+//Kullanım
+
+const embed = new Discord.MessageEmbed()
+
+.setColor('RED') //Embed mesaj renginizi ayarlar örnek : RENK ADI : BLUE | RENK KODU :  #003399
+.setTitle('BAŞLIĞINIZ') //Başlık bölümünü oluşturur
+.setURL('https://github.com/UmutSonmezGithub') //Belirtiğiniz yere link koymanızı sağlar 
+.setAuthor('Drapper') //
+
+
